@@ -6,6 +6,7 @@ void main(){
   {
 
   printf("%d\n",num); 
-  num= num-1; 
+  num= num-2; 
 }
 }
+
