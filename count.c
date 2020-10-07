@@ -1,15 +1,14 @@
 #include <stdio.h>
-void main(){
-  int i, num, rem, count;
-  printf("enter any digit number: ");
-  scanf("%d",&num);
-  for(i=0;num>0;i++){
-      rem=num%10;
-      if(num>0){
-          count++;
-
-      }
-  }
-  printf("\n you have entered %d digit number: ",count);
-    
+void main()
+{
+    int marks, i, g = 0, s = 500;
+    for (i = 1; i <= 5; i++)
+    {
+        printf("enter the %d marks ", i);
+        scanf("%d", &marks);
+        g = g > marks ? g : marks;
+        s = marks < s ? marks : s;
+    }
+    printf("greater marks is %d\n",g);
+    printf("smaller marks is %d",s);
 }
