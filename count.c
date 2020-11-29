@@ -1,3 +1,4 @@
+// program to find greatest and smallest number of five students
 #include <stdio.h>
 void main()
 {
