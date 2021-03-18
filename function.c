@@ -1,11 +1,20 @@
-//write a program to find square root of any number using function
 #include<stdio.h>
-#include<math.h>
-main(){
-    double n,s;
-    printf("enter a number: ");
-    scanf("%lf", &n);
-    s=sqrt(n);
-    printf("the square root of %.2lf is %.2lf\n", n, s);
-
+ 
+int main() {
+   int num1, num2, res;
+ 
+   printf("\nEnter the two numbers : ");
+   scanf("%d %d", &num1, &num2);
+ 
+   //Call Function Sum With Two Parameters
+   res = sum(num1, num2);
+ 
+   printf("nAddition of two number is %d", res);
+   return (0);
+}
+ 
+int sum(int num1, int num2) {
+   int num3;
+   num3 = num1 + num2;
+   return (num3);
 }
