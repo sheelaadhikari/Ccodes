@@ -1,0 +1,29 @@
+.Book{
+    color:burlywood ;
+    display:flex;
+    size-adjust:2px;
+
+}
+#list{
+    color: chocolate;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    outline-offset: 50%;
+    
+}
+.button{
+    background-color: darkblue;
+    padding:10px;
+}
+.button a{
+    color:white;
+    text-decoration: none;
+}
+#introduction{
+    color:blue;
+    font-size: 30px;
+}
